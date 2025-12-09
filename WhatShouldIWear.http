@@ -1,0 +1,6 @@
+@WhatShouldIWear_HostAddress = http://localhost:5042
+
+GET {{WhatShouldIWear_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
