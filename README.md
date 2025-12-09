@@ -26,9 +26,8 @@ It orchestrates **OpenWeatherMap** and **Google Gemini AI** to suggest the perfe
 ## ⚙️ Installation & Setup
 
 1.  **Clone the repository**
-    *(Kendi kullanıcı adını buraya yazmayı unutma)*
     ```bash
-    git clone [https://github.com/KULLANICI_ADIN/WhatShouldIWear.git](https://github.com/KULLANICI_ADIN/WhatShouldIWear.git)
+    git clone https://github.com/burakani/WhatShouldIWear.git
     ```
 
 2.  **Configure API Keys**
@@ -38,11 +37,11 @@ It orchestrates **OpenWeatherMap** and **Google Gemini AI** to suggest the perfe
     ```json
     "OpenWeather": {
       "ApiKey": "YOUR_WEATHER_API_KEY",
-      "BaseUrl": "[https://api.openweathermap.org/data/2.5/](https://api.openweathermap.org/data/2.5/)"
+      "BaseUrl": "https://api.openweathermap.org/data/2.5/"
     },
     "Gemini": {
       "ApiKey": "YOUR_GEMINI_API_KEY",
-      "BaseUrl": "[https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent](https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent)"
+      "BaseUrl": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
     }
     ```
 
@@ -64,7 +63,7 @@ It orchestrates **OpenWeatherMap** and **Google Gemini AI** to suggest the perfe
   "occasion": "Casual",
   "style": "Streetwear"
 }
-
+```
 **Response:**
 ```json
 {
@@ -78,3 +77,4 @@ It orchestrates **OpenWeatherMap** and **Google Gemini AI** to suggest the perfe
   ],
   "reasoning": "This outfit is meticulously crafted for the male streetwear enthusiast facing Istanbul's chilly 8.42°C..."
 }
+```
